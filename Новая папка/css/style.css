@@ -1,0 +1,153 @@
+/*------ template stylization ------*/
+body {
+	background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
+}
+/*----------- Back to top --------------*/
+#toTop {
+	display: none;
+	width: 27px;
+	height: 19px;
+	overflow: hidden;
+	background: url(../img/totop.png) 0 bottom no-repeat;
+	position: fixed;
+	margin-right: -690px !important;
+	right: 50%;
+	bottom: 60px;
+	z-index: 999;
+}
+#toTop:hover {
+	background-position: 0 0;
+}
+#toTop:active, #toTop:focus {
+	outline: none;
+}
+/*-----------row_s--------------*/
+.row_1 {
+	text-align: center;
+	padding: 30px 0;
+	background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
+}
+.row_2 {
+	text-align: center;
+	padding: 22px 0 0;
+	background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
+}
+.row_3 {
+	padding: 43px 0 13px;
+	background: url(../img/pattern2.jpg) 0 0 repeat;
+}
+.row_4 {
+	padding: 30px 0 81px;
+	background: #ffffff;
+}
+.row_5 {
+	padding: 30px 0 98px;
+	background: #ffffff;
+}
+.row_6 {
+	padding: 30px 0 72px;
+	background: #ffffff;
+}
+.row_7 {
+	padding: 30px 0 80px;
+	background: #ffffff;
+}
+.row_8 {
+	padding: 63px 0 112px;
+	background: #ffffff;
+}
+.row_9 {
+	padding: 31px 0 90px;
+	background: #ffffff;
+}
+.row_10 {
+	padding: 101px 0 85px;
+	background: #ffffff;
+}
+.row_11 {
+	padding: 40px 0 40px;
+	background: #ffffff;
+}
+/*------------links headings-----------*/
+p {
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	color: #adadad;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 11px;
+}
+
+.btn1 {
+	position: relative;
+	background: #ffffff;
+	color: #545658;
+	font-family: 'Georgia', serif;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: normal;
+	border-radius: 50px;
+	border: none;
+	padding: 20px 0 24px;
+	margin: 0;
+	width: 65px;
+	height: 65px;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.btn1:hover {
+	text-decoration: none;
+	background: #ffffff;
+	color: #545658;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+/*--- header end ------*/
+/*------ content ------- */
+.title1 {
+	color: #ffffff;
+	font-family: 'Georgia', serif;
+	font-size: 36px;
+	line-height: 38px;
+	font-weight: normal;
+	margin-bottom: 24px;
+}
+.title2 {
+	letter-spacing: 0;
+	color: #939598;
+	font-family: 'Georgia', serif;
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: normal;
+	margin-bottom: 28px;
+}
+.footercol {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.social_icons {
+	display: block;
+}
+.footerpriv {
+	margin-top: 0;
+	margin-right: 0;
+	float: none;
+	text-align: center;
+}
+.footercol {
+	float: left;
+	width: 33%;
+	margin-bottom: 20px;
+}
+.footerpriv {
+	margin-top: 21px;
+	margin-right: 0;
+	font-size: 14px;
+}
+.footerpriv a {
+	font-size: 14px;
+}
